@@ -19,9 +19,13 @@ marketingskills/
 │   └── marketplace.json   # Claude Code plugin marketplace manifest
 ├── skills/                # Agent Skills
 │   └── skill-name/
-│       └── SKILL.md       # Required skill file
+│       ├── SKILL.md       # Required skill file
+│       ├── evals/         # Optional quality evals
+│       ├── references/    # Optional detailed docs
+│       ├── scripts/       # Optional executable code
+│       └── assets/        # Optional templates, data files
 ├── tools/
-│   ├── clis/              # Zero-dependency Node.js CLI tools (51 tools)
+│   ├── clis/              # Zero-dependency Node.js CLI tools (61 tools)
 │   ├── composio/          # Composio integration layer (quick start + toolkit mapping)
 │   ├── integrations/      # API integration guides per tool
 │   └── REGISTRY.md        # Tool index with capabilities
