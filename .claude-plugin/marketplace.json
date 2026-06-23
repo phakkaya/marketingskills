@@ -51,6 +51,48 @@
         "./skills/site-architecture",
         "./skills/social-content"
       ]
+    },
+    {
+      "name": "karpathy-skills",
+      "description": "Behavioral guidelines from Andrej Karpathy to reduce common LLM coding mistakes",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/karpathy-guidelines"
+      ]
+    },
+    {
+      "name": "matt-pocock-skills",
+      "description": "Engineering skills from Matt Pocock — idea-to-ship flow, TDD, debugging, domain modeling, code design, and productivity workflows",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ask-matt",
+        "./skills/to-issues",
+        "./skills/implement",
+        "./skills/grill-with-docs",
+        "./skills/grill-me",
+        "./skills/grilling",
+        "./skills/codebase-design",
+        "./skills/diagnosing-bugs",
+        "./skills/tdd",
+        "./skills/domain-modeling",
+        "./skills/resolving-merge-conflicts"
+      ]
+    },
+    {
+      "name": "9arm-skills",
+      "description": "Engineering and productivity skills from 9arm — debugging discipline, post-mortems, code scrutiny, Qwen delegation, management communication, and context management",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/debug-mantra",
+        "./skills/post-mortem",
+        "./skills/scrutinize",
+        "./skills/qwen-agent",
+        "./skills/management-talk",
+        "./skills/qwenchance"
+      ]
     }
   ]
 }
